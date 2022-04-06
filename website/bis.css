@@ -1,0 +1,121 @@
+.ulcl {
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+  background:#2d2d2d;
+  height: 60px;
+}
+
+.home{
+  float: left;
+  padding-left: 80px;
+  padding-right: 50px;
+}
+
+.acl {
+  text-decoration: none;
+  background:#2d2d2d;
+  color:#FFFFFF ;
+  padding:0px 50px;
+  font-size: 32px;
+  font-family: Arial Style;
+  line-height:60px;
+  display: block;
+  border-right: 1px solid #FFFFFF ;
+  transition: all 0.3s ease;
+}
+
+.acl:hover {
+  background:#ffffff;
+  color: #fff;
+}
+
+.licl {
+  float:left;
+  position:relative;
+}
+
+.licl > .ulcl {
+        position:relative;
+        display:none;
+}
+
+.licl:hover > .ulcl {
+        display:block;
+        width: 100%;
+}
+.licl:hover > .ulcl > .licl {
+        float:none;
+}
+
+.footer{
+  background-color: #2d2d2d;
+}
+
+.footertext{
+  font-family: Times New Roman Style;
+  color: #ffffff;
+  font-size: 24px;
+  text-align: center;
+}
+
+.footer{
+  background-color: #2d2d2d;
+}
+
+.footertext{
+  font-family: Times New Roman Style;
+  color: #ffffff;
+  font-size: 24px;
+}
+body {
+  margin-right: 8px;
+  margin-left: 8px;
+  }
+  .header{
+  background: url(images/fon1.jpg);
+  background-size:cover;
+  background-position: top center;
+  width:100%;
+}
+
+  #heading{
+    text-transform: uppercase;
+     font-size: 50px;
+   }
+  p {
+    border-left: 6px dotted black;
+    border-right: 6px dotted black;
+    padding: 60px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    text-align: justify;
+    text-indent: 40px;
+    font-family: Arial Style;
+    font-size: 25px;
+  }
+  hr {
+      margin: -30px auto 10px;
+    	padding: 0;
+    	height: 50px;
+    	border: none;
+    	border-bottom: 1px solid #1f1209;
+    	box-shadow: 0 20px 20px -20px #333;
+    	width: 95%
+  }
+  .bis {
+  border: 2px solid #AB8623;
+  border-top-style: dashed;
+  border-left-style: solid;
+  border-bottom-style: dashed;
+  padding: 20px;
+  margin: 20px 60px 20px 60px;
+  width: 350px;
+  height: 300px;
+  }
+figure {
+  text-align: center;
+}
+figcaption{
+  font-size: 30px;
+}
